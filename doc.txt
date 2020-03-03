@@ -1,0 +1,10 @@
+1. Membuat Repository di Github.
+2. clone repo ke komputer.
+3. buka repo menggunakan text editor.
+4. buat file index.HTML.
+5. tambahkan file wajib (css, img, dan js) dari web bootstrap.
+6. copykan Navbar dari bootstrap ke dalam body di index.html.
+7. ubah clas='navbar-light bg-light' menjadi 'navbar-dark bg-success'.
+8. ubah attribut href pada <a class='navabar-brand'> menjadi "#home"dan ubah textnya menjadi Muchamad      Yassir.
+9. ubah link menjadi #about, #portofolio, #contact.
+10.  
