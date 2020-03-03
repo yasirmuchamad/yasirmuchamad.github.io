@@ -8,6 +8,21 @@ hr {
   width: 250px;
 }
 
+section {
+  min-height: 600px;
+}
+
+section h2 {
+  color: #01bc46;
+  padding-top: 30px;
+  text-shadow: 1px 1px 3px #10331d;
+}
+
+.desc {
+  padding-top: 10px;
+  text-align: center;
+}
+
 .jumbotron {
   background-image: url('../img/web-design.jpg');
   background-position: center;
@@ -27,11 +42,19 @@ hr {
   width: 200px;
 }
 
-section {
-  min-height: 600px;
+#about {
+  /* background-color: #10331d; */
+  /* background-color: #e1f7de; */
+  /* color: #e1f7de; */
 }
 
-section h2 {
+#port {
+  background-color: #10331d;
+  /* color: #e1f7de; */
   color: #01bc46;
-  text-shadow: 1px 1px 3px #10331d;
+  padding-bottom: 50px;
+}
+
+#porto {
+  padding-top: 40px;
 }
