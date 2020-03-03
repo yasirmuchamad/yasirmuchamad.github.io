@@ -18,6 +18,19 @@ section h2 {
   text-shadow: 1px 1px 3px #10331d;
 }
 
+footer {
+  background-color: #01bc46;
+  height: 100px;
+  padding-top: 40px;
+  position: absolute;
+  width: 100%;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 1em;
+}
+
 .desc {
   padding-top: 10px;
   text-align: center;
@@ -46,6 +59,10 @@ section h2 {
   /* background-color: #10331d; */
   /* background-color: #e1f7de; */
   /* color: #e1f7de; */
+}
+
+#contact {
+  padding-bottom: 50px;
 }
 
 #port {

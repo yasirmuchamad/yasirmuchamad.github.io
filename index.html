@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success">
       <a class="navbar-brand" href="#home">Muchamad Yassir</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portofolio">Portofolio</a>
+            <a class="nav-link" href="#port">Portofolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -147,12 +147,26 @@
             <form>
               <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" name="name" placeholder="Input Your Name">
+                <input type="text" name="name" class="form-control" placeholder="Input Your Name">
               </div>
               <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" name="email" placeholder="Input Your Email Address">
+                <input type="email" name="email" class="form-control" placeholder="Input Your Email Address">
               </div>
+              <div class="form-group">
+                <label for="telp">Phone Number</label>
+                <input type="number" name="telp" class="form-control" placeholder="Input Your Phone Number">
+              </div>
+              <select class="form-control" name="">
+                <option>-- Choose Category --</option>
+                <option> Web Design </option>
+                <option> Web Developers </option>
+              </select>
+              <div class="form-group">
+                <label for="pesan">Messeges</label>
+                <textarea class="form-control" id="pesan" rows="10" placeholder="Type your Messeges"></textarea>
+              </div>
+              <button class="btn btn-success" type="submit" name="button">Send</button>
             </form>
           </div>
         </div>
@@ -160,8 +174,22 @@
     </section>
     <!-- akhir section contact -->
 
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <p>
+              &copy Copyright2020 | made with <i class="fas fa-heart"></i> by <a href="#">Muchamad Yassir</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/all.js"></script>
   </body>
 </html>
