@@ -6,5 +6,5 @@
 6. copykan Navbar dari bootstrap ke dalam body di index.html.
 7. ubah clas='navbar-light bg-light' menjadi 'navbar-dark bg-success'.
 8. ubah attribut href pada <a class='navabar-brand'> menjadi "#home"dan ubah textnya menjadi Muchamad      Yassir.
-9. ubah link menjadi #about, #portofolio, #contact.
-10.  
+9. ubah attribut href pada link menjadi #about, #portofolio, #contact.
+10.
