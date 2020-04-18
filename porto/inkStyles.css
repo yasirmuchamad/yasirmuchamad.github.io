@@ -1,0 +1,35 @@
+.jumbotron {
+  background-image: url(img/dp_all.png);
+  color: #0096CE;
+  font-family: 'Montserrat';
+  height: 768px;
+  text-align: center;
+}
+
+.jumbotron .text1 {
+  font-size: 42px;
+  margin-top: 50px;
+  text-shadow: 0 1px 2px #10331d;
+}
+
+.jumbotron .text1 span{
+  font-weight: bold;
+}
+
+.jumbotron .text2 {
+  font-size: 42px;
+  margin-top: 60px;
+  text-shadow: 0 1px 2px #10331d;
+}
+
+.jumbotron .text2 span{
+  font-weight: bold;
+}
+
+.jumbotron .imgink {
+  margin-top: -50px;
+}
+
+.jumbotron .tombol {
+  border-color: #E90073;
+}
