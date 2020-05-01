@@ -1,90 +1,69 @@
-.jumbotron {
-  background-image: url(img/dp_all.png);
-  color: #0096CE;
+body {
   font-family: 'Montserrat';
-  height: 768px;
-  text-align: center;
 }
 
-.jumbotron .text1 {
-  font-size: 42px;
-  margin-top: 40px;
-  text-shadow: 0 1px 2px #10331d;
-}
+@media (min-width : 992px) {
 
-.jumbotron .text1 span{
-  font-weight: bold;
-}
+  .jumbotron {
+    background-image: url('img/dp_all.png');
+    color: #0D4095;
+    height: 768px;
+    text-align: center;
+    text-shadow: 1px 1px 3px #000000;
+  }
 
-.jumbotron .text2 {
-  font-size: 42px;
-  margin-top: 50px;
-  text-shadow: 0 1px 2px #10331d;
-}
+  .jumbotron .ques {
+    font-size: 52px;
+    font-weight: lighter;
+  }
 
-.jumbotron .text2 span{
-  font-weight: bold;
-}
+  .jumbotron .ques span {
+    font-weight: 500;
+  }
 
-.jumbotron .imgink {
-  margin-top: -70px;
-}
+  .jumbotron .solusi {
+    font-size: 42px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
-.jumbotron .tombol {
-  background-color: #E90073;
-  border-radius: 40px;
-  color: #ffffff;
-  font-size: 26px;
-  font-weight: 500;
-  height: 55px;
-  margin-top: -70px;
-  width: 260px;
-}
+  .jumbotron .solusi span {
+    font-weight: bold;
+  }
 
-.refil {
-  background-image: url('img/Path 1.png');
-  height: 768px;
-  margin-top: -50px;
-}
+  .jumbotron p img {
+    height: 120px;
+  }
 
-.refil .h3 {
-  color: #FFFFFF;
-  font-size: 40px;
-  font-weight: bold;
-  padding-top: 50px;
-  text-align: center;
-  text-shadow: 1px 3px 5px #10331d;
-}
+  .jumbotron .desc {
+    font-size: 22px;
+    margin-top: -20px;
+  }
 
-.refil #refil {
-  margin-top: 50px;
-  margin-left: 50px;
-  color: #0D4095;
-}
+  .jumbotron .tombol {
+    background-color: #E90073;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+  }
 
-.refil #inktec1 {
-  border-radius: 20px;
-  box-shadow: 1px 3px 5px #10331d;
-  height: auto;
-  margin-top: 100px;
-  width: 500px;
-}
 
-.refil #rect {
-  border-radius: 30px;
-  box-shadow: 1px 3px 5px #10331d;
-  margin-left: -50px;
-  margin-top: 50px;
-  width: 600px;
-}
 
-.refil .isi {
-  font-size: 26px;
-  margin-top: -350px;
-  margin-left: -10px;
-  text-shadow: 0px 1px 2px #10331d;
-}
+  .interest {
+    color: #0D4095;
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
 
-.refil .isi .tab{
-  margin-left: 30px;
+  .mengapa {
+    background-color: #c8c8c8;
+    margin-top: 100px;
+  }
+
+  .mengapa h2 {
+    margin-top: 100px;
+  }
 }
