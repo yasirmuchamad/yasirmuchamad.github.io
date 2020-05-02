@@ -23,8 +23,8 @@ body {
 
   .jumbotron .solusi {
     font-size: 42px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 90px;
+    margin-bottom: 50px;
   }
 
   .jumbotron .solusi span {
@@ -40,7 +40,7 @@ body {
     margin-top: -20px;
   }
 
-  .jumbotron .tombol {
+  .tombol {
     background-color: #E90073;
     border-radius: 10px;
     color: #FFFFFF;
@@ -55,15 +55,184 @@ body {
   .interest {
     color: #0D4095;
     font-size: 32px;
-    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
-
+/* mengapa1 */
   .mengapa {
-    background-color: #c8c8c8;
-    margin-top: 100px;
+    background-color: #e2e2e2;
+    color: #0D4095;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
   }
 
   .mengapa h2 {
+    font-size: 52px;
+    font-weight: bold;
+  }
+
+  .mengapa p {
+    font-size: 26px;
+    padding-top: 30px;
+    text-align: left;
+  }
+
+  .mengapa .container img {
+    height: 472px;
+  }
+  /* mengapa1 */
+
+  /* mengapa2 */
+  .mengapa2 {
+    color: #0D4095;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .mengapa2 p {
+    font-size: 26px;
+    padding-top: 30px;
+    text-align: left;
+  }
+
+  .mengapa2 .container img {
+    height: 472px;
+  }
+  /* mengapa2 */
+
+  /* mengapa3 */
+  .mengapa3 {
+    background-color: #e2e2e2;
+    color: #0D4095;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .mengapa3 h2 {
+    font-size: 52px;
+    font-weight: bold;
+  }
+
+  .mengapa3 p {
+    font-size: 26px;
+    padding-top: 30px;
+    text-align: left;
+  }
+
+  .mengapa3 .container img {
+    height: 472px;
+    width: 550px;
+  }
+  /* mengapa3 */
+
+  /* mengapa4 */
+  .mengapa4 {
+    color: #0D4095;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .mengapa4 p {
+    font-size: 26px;
+    padding-top: 10px;
+    text-align: left;
+  }
+
+  .mengapa4 p span {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .mengapa4 h2 {
+    font-size: 34px;
+    padding-top: 30px;
+  }
+
+  .mengapa4 h2 span{
+    font-size: 38px;
+    font-weight: bold;
+  }
+
+  .mengapa4 .container img {
+    border-radius: 5px;
+    height: 450px;
+  }
+  /* mengapa4 */
+
+  .tawaran {
+    background-color: #e2e2e2;
+    color: #0D4095;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .tawaran p {
+    font-size: 34px;
+  }
+
+  .tawaran .container img {
+    border-radius: 5px;
+    height: 500px;
+  }
+
+  .tawaran .strik {
+    color: #000000;
+    font-size: 52px;
+    font-weight: bold;
+    opacity: 30%;
+    padding-top: 20px;
+  }
+
+  .tawaran .harga {
+    color: #CD0076;
+    font-size: 52px;
+    font-weight: bold;
+  }
+
+  .tawaran img {
+    height: 70px;
+    margin-top: 40px;
+    width: 300px;
+  }
+
+  .tawaran2 {
+    color: #0D4095;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .tawaran2 p {
+    font-size: 34px;
+  }
+
+  .tawaran2 p span {
+    font-size: 38px;
+    font-weight: bold;
+  }
+
+  .tawaran2 img {
+    height: 395px;
+    margin-top: 40px;
+  }
+
+  .tawaran2 .harga {
+    color: #CD0076;
+    font-size: 52px;
+    font-weight: bold;
+  }
+
+  .footer {
+    background-color: #e2e2e2;
+    color: rgb(102, 103, 102);
     margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
   }
 }
